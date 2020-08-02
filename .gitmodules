@@ -1,0 +1,3 @@
+[submodule "AngularApplication"]
+	path = AngularApplication
+	url = git@github.com:odprz-dev/angular-real-time-chat-app.git
