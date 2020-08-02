@@ -12,9 +12,12 @@ Por otro lado en el segundo ejemplo recibiremos los valores transmitidos por el 
 
 ## Compilación
 
-Para correr la aplicación será necesario verificar que  tanto el servidor y el cliente tengan configurados correctamente los puertos ya que de otro modo se bloqueará la comunicación debído al **CORS**. 
+Para correr la aplicación será necesario verificar que  tanto el servidor y el cliente tengan configurados correctamente los puertos, ya que de otro modo se bloqueará la comunicación debído al **CORS**. 
 
-Por defecto el servidor corre mediante protocolo SSL en el puerto: 
-
+La configuracion de la ruta del cliente se realiza en el  **Satrtup.cs**  `services.AddCors` añadir en el metodo `WitOrigins()`
 
 Angular correrá sobre el puerto por defecto **4200**.
+
+Por defecto el servidor corre mediante protocolo SSL en el puerto: **44339**
+
+
